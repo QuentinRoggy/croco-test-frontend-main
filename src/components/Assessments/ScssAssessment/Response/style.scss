@@ -3,5 +3,68 @@
   width: 17rem;
   min-height: 17rem;
   min-height: 17rem;
-  border: 1px solid black;
+  border: 1px solid #E47AE8;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+
+    .col {
+      display: flex;
+    }
+
+    .center {
+      justify-content: center;
+      align-items: center;
+      color: #7DFF9D;
+      background-color: #E47AE8;
+    }
+
+    .bottom-right {
+      padding: 2px;
+      width: 100%;
+      justify-content: end;
+      align-items: end;
+      color: #E47AE8;
+      background-color: #7DFF9D;
+    }
+  }
+
+  .first_row {
+    height: 33%;
+    border: 1px solid #E47AE8;
+
+    &__first_col {
+      width: 40%;
+    }
+
+    &__third_col {
+      width: 40%;
+    }
+  }
+
+  .second_row {
+    height: 33%;
+    &__first_col {
+      min-width: 70%;
+      flex: 2;
+    }
+    &__second_col {
+      border-left: 1px solid #E47AE8;
+      width: 40%;
+    }
+  }
+
+  .third_row {
+    height: 33%;
+
+    &__first_col {
+      min-width: 70%;
+      flex: 2;
+    }
+
+    &__second_col {
+      width: 40%;
+    }
+  }
 }

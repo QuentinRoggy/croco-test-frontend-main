@@ -14,6 +14,8 @@ export default function GraphQLAssessmentTable() {
     if (error) return <p>Error : {error.message}</p>;
 
     let cakesListFiltered;
+
+    // works on any fields
     if (filter !== '') {
         cakesListFiltered = data.cakes
           .filter((o) => Object
