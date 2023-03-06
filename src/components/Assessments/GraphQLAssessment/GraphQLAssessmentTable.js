@@ -46,9 +46,9 @@ export default function GraphQLAssessmentTable() {
                 {
                     myCakeList.map((cake) => (
                         <tr key={cake.id}>
-                            <td>{cake.title}</td>
-                            <td>{cake.description}</td>
-                            <td>
+                            <td className='title'>{cake.title}</td>
+                            <td className='description'>{cake.description}</td>
+                            <td className='image_row'>
                                 <img src={cake.image} alt={cake.title} />
                             </td>
                         </tr>
