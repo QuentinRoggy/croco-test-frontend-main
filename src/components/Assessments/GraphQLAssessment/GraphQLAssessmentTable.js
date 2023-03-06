@@ -32,6 +32,7 @@ export default function GraphQLAssessmentTable() {
 
     return (
         <div>
+            <p>Filtrer les résultats</p>
             <input className='input' value={filter} onChange={handleFilterChange}/>
             <table id="reduxAssessmentTable">
                 <thead>
