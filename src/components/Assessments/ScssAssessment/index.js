@@ -1,4 +1,5 @@
 import React  from 'react';
+import Response from './Response';
 
 export default function ScssAssessment() {
   return (
@@ -15,6 +16,7 @@ export default function ScssAssessment() {
         to the README for more detailed directions!</span>
       </p>
       <img src="/images/styling-test.png" alt="styling-test" />
+      <Response />
     </div>
   );
 }
